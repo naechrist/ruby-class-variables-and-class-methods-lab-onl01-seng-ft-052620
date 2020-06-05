@@ -40,4 +40,5 @@ class Song
       artist_hash[artist] = @@artists.count {|a| a == artist}
     end
     artist_hash
+  end
 end
